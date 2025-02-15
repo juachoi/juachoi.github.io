@@ -18,15 +18,17 @@ git clone <저장소url>
 파일을 바로 다운로드 받는다.
 
 git add <파일경로>
+git add .
 : 변경사항이 있는 파일을 하나의 버전에 포함시키기 위해
 임시로 담는 행동-> staging
++ git add .은 모든 변경사항을 스테이징 하겠다는 명령어이다. 
 
 버전 확정
 git commit -m "커밋메시지"
 : 해당 버전에 커밋메시지와 함께 버전을 확정 짓는 것이다. 
 
 git push origin main
-git push
+git push 
 : main 브랜치의 변경사항을 깃허브 저장소에 업데이트를 올리는 것
 만약에 연경된 깃허브 저장소가 하나라면, origin main은 생략해도 된다. 
 
