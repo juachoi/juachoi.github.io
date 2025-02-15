@@ -11,6 +11,10 @@ git config --local user.email "유저이메일"
 + --local 대신에 --global을 입력하면 
 해당 PC의 어느 위치에서도 같은 설정으로 작업할 수 있다. 
 
+git remote add origin <저장소url>
+: 로컬과 깃허브 저장소를 연결하는 명령어
+origin 그 저장소를 가리킬 명칭을 적는 부분이다. 
+
 git clone <저장소url>
 : 현재 폴더 아래에 저장소 이름의 폴더를 생성하고,
 그 아래 파일들을 다운로드 받는다. 
